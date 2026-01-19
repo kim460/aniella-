@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumusime Aniella Vanessa | Official Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Inline CSS removed — styles are in style.css -->
+    </head>
+<body>
+    <!-- Background Pattern -->
+    <div class="bg-pattern"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Aniella Vanessa</div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#conferences">Conferences</a></li>
+            <li><a href="#mun">MUN</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="menu-toggle" onclick="openMobileMenu()" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="closeMobileMenu()" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="#home" onclick="closeMobileMenu()">Home</a>
+        <a href="#about" onclick="closeMobileMenu()">About</a>
+        <a href="#awards" onclick="closeMobileMenu()">Awards</a>
+        <a href="#hobbies" onclick="closeMobileMenu()">Hobbies</a>
+        <a href="#projects" onclick="closeMobileMenu()">Projects</a>
+        <a href="#activities" onclick="closeMobileMenu()">Activities</a>
+        <a href="#events" onclick="closeMobileMenu()">Events</a>
+        <a href="#conferences" onclick="closeMobileMenu()">Conferences</a>
+        <a href="#mun" onclick="closeMobileMenu()">MUN</a>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Welcome to my world</p>
+                <h1 class="hero-name">I'm <span>Tumusime Aniella Vanessa</span></h1>
+                <p class="hero-title">Student • Poet • Basketballer • Artist • Leader</p>
+                <div class="hero-roles">
+                    <span class="role-badge"><i class="fas fa-graduation-cap"></i> Top Scholar</span>
+                    <span class="role-badge"><i class="fas fa-feather-alt"></i> Poet</span>
+                    <span class="role-badge"><i class="fas fa-basketball-ball"></i> Athlete</span>
+                    <span class="role-badge"><i class="fas fa-palette"></i> Artist</span>
+                    <span class="role-badge"><i class="fas fa-globe"></i> MUN Delegate</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        <i class="fas fa-user"></i> Discover More
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-container">
+                    <div class="avatar-ring">
+                        <div class="avatar-inner">AV</div>
+                    </div>
+                    <div class="avatar-decorations">
+                        <div class="decoration"><i class="fas fa-pen-fancy"></i></div>
+                        <div class="decoration"><i class="fas fa-basketball-ball"></i></div>
+                        <div class="decoration"><i class="fas fa-music"></i></div>
+                        <div class="decoration"><i class="fas fa-trophy"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">Get to know me</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-image">
+                <div class="about-img-container">
+                    <div class="about-img-inner">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>S6 Student</span>
+                    </div>
+                </div>
+                <div class="experience-badge">
+                    <span class="number">#1</span>
+                    <span class="text">Top Performer</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>A Passionate & Multi-Talented Student</h3>
+                <p>
+                    Hello! I'm <strong>Tumusime Aniella Vanessa</strong>, a dedicated Senior 6 student at <strong>HGL</strong>. My journey is defined by a relentless pursuit of excellence in academics, arts, sports, and leadership.
+                </p>
+                <p>
+                    As the <strong>best academic performer</strong> at HGL, I've proven that hard work and dedication can lead to remarkable achievements. But my story goes beyond grades – I'm a poet who transforms emotions into verses, a basketballer who thrives on teamwork, and an artist who sees beauty in everything.
+                </p>
+                <p>
+                    I believe in the power of using one's talents to inspire others and make a positive impact. Whether I'm reciting poetry on stage, leading my team on the basketball court, or representing my school at Model United Nations conferences, I bring passion and excellence to everything I do.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Skills</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Awards</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">MUN Conferences</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Certificates Section -->
+    <section id="awards" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">Recognition</p>
+            <h2 class="section-title">Awards & Certificates</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="awards-grid">
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                <h4>Best Academic Performance</h4>
+                <p>Achieved highest academic excellence at HGL</p>
+                <span class="year">2024</span>
+            </div>
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-medal"></i></div>
+                <h4>Leadership Excellence Award</h4>
+                <p>Recognized for outstanding leadership qualities</p>
+                <span class="year">2024</span>
+            </div>
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-feather-alt"></i></div>
+                <h4>Poetry Competition Winner</h4>
+                <p>First place in inter-school poetry competition</p>
+                <span class="year">2023</span>
+            </div>
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-basketball-ball"></i></div>
+                <h4>Basketball MVP</h4>
+                <p>Most Valuable Player - School Basketball Team</p>
+                <span class="year">2023</span>
+            </div>
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-globe-africa"></i></div>
+                <h4>Best Delegate Award</h4>
+                <p>Outstanding performance at Model UN Conference</p>
+                <span class="year">2024</span>
+            </div>
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-microphone-alt"></i></div>
+                <h4>Public Speaking Certificate</h4>
+                <p>Excellence in oratory and debate</p>
+                <span class="year">2023</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">What I Love</p>
+            <h2 class="section-title">My Hobbies</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="hobbies-container">
+            <div class="hobby-card">
+                <i class="fas fa-pen-fancy"></i>
+                <span>Writing Poetry</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-basketball-ball"></i>
+                <span>Playing Basketball</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-music"></i>
+                <span>Singing</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-book-open"></i>
+                <span>Reading Books</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-paint-brush"></i>
+                <span>Drawing & Art</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-microphone"></i>
+                <span>Public Speaking</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-users"></i>
+                <span>Community Service</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-globe"></i>
+                <span>Model United Nations</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-camera"></i>
+                <span>Photography</span>
+            </div>
+            <div class="hobby-card">
+                <i class="fas fa-headphones"></i>
+                <span>Listening to Music</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">My Work</p>
+            <h2 class="section-title">Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-book"></i></div>
+                <h3>Poetry Collection</h3>
+                <div class="card-meta"><i class="fas fa-calendar"></i> Ongoing</div>
+                <p>A personal collection of original poems exploring themes of hope, identity, youth empowerment, and African heritage.</p>
+                <div class="card-tags">
+                    <span class="tag">Creative Writing</span>
+                    <span class="tag">Poetry</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
+                <h3>Youth Mentorship Initiative</h3>
+                <div class="card-meta"><i class="fas fa-calendar"></i> 2024</div>
+                <p>Founded a peer mentorship program helping junior students improve their academic performance and develop leadership skills.</p>
+                <div class="card-tags">
+                    <span class="tag">Leadership</span>
+                    <span class="tag">Education</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-palette"></i></div>
+                <h3>Art for Change Exhibition</h3>
+                <div class="card-meta"><i class="fas fa-calendar"></i> 2023</div>
+                <p>Organized an art exhibition featuring student artworks addressing social issues and promoting positive change in the community.</p>
+                <div class="card-tags">
+                    <span class="tag">Art</span>
+                    <span class="tag">Community</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-basketball-ball"></i></div>
+                <h3>Girls Sports Empowerment</h3>
+                <div class="card-meta"><i class="fas fa-calendar"></i> 2024</div>
+                <p>Initiated a program to encourage more girls to participate in sports, particularly basketball, promoting fitness and teamwork.</p>
+                <div class="card-tags">
+                    <span class="tag">Sports</span>
+                    <span class="tag">Empowerment</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-newspaper"></i></div>
+                <h3>School Magazine Contributor</h3>
+                <div class="card-meta"><i class="fas fa-calendar"></i> 2023-2024</div>
+                <p>Regular contributor of poems, articles, and artwork to the school magazine, inspiring fellow students through creative expression.</p>
+                <div class="card-tags">
+                    <span class="tag">Writing</span>
+                    <span class="tag">Art</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-leaf"></i></div>
+                <h3>Environmental Awareness Campaign</h3>
+                <div class="card-meta"><i class="fas fa-calendar"></i> 2024</div>
+                <p>Led a school-wide campaign promoting environmental conservation through tree planting and waste management initiatives.</p>
+                <div class="card-tags">
+                    <span class="tag">Environment</span>
+                    <span class="tag">Leadership</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">What I Do</p>
+            <h2 class="section-title">Activities</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-basketball-ball"></i></div>
+                <h3>Basketball Team</h3>
+                <div class="card-meta"><i class="fas fa-users"></i> Team Member</div>
+                <p>Active member of the school basketball team, participating in inter-school tournaments and promoting sportsmanship.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-comments"></i></div>
+                <h3>Debate Club</h3>
+                <div class="card-meta"><i class="fas fa-star"></i> Senior Member</div>
+                <p>Engaging in intellectual debates on current affairs, policy issues, and philosophical topics to sharpen critical thinking.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-music"></i></div>
+                <h3>School Choir</h3>
+                <div class="card-meta"><i class="fas fa-microphone"></i> Vocalist</div>
+                <p>Contributing melodious vocals to the school choir, performing at various school events and competitions.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-pen-fancy"></i></div>
+                <h3>Poetry Club</h3>
+                <div class="card-meta"><i class="fas fa-crown"></i> Founding Member</div>
+                <p>Writing and performing original poetry, mentoring aspiring poets, and organizing poetry reading sessions.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-globe-africa"></i></div>
+                <h3>Model United Nations</h3>
+                <div class="card-meta"><i class="fas fa-award"></i> Delegate</div>
+                <p>Representing countries in simulated UN conferences, debating global issues and drafting resolutions.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-heart"></i></div>
+                <h3>Community Service Club</h3>
+                <div class="card-meta"><i class="fas fa-hands-helping"></i> Volunteer</div>
+                <p>Participating in community outreach programs, charity events, and initiatives to help the less fortunate.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Performed Section -->
+    <section id="events" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">On Stage</p>
+            <h2 class="section-title">Events Performed</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="date"><i class="fas fa-calendar-alt"></i> December 2024</div>
+                    <h4>Annual Prize Giving Day</h4>
+                    <p>Delivered a captivating poetry recitation and received the Best Academic Performance award.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="date"><i class="fas fa-calendar-alt"></i> November 2024</div>
+                    <h4>Inter-School Arts Festival</h4>
+                    <p>Performed original poetry and participated in the art exhibition, showcasing creative talents.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="date"><i class="fas fa-calendar-alt"></i> September 2024</div>
+                    <h4>Independence Day Celebration</h4>
+                    <p>Led the school choir and delivered a powerful spoken word performance on national unity.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="date"><i class="fas fa-calendar-alt"></i> August 2024</div>
+                    <h4>Regional Basketball Championship</h4>
+                    <p>Competed in the regional championships, demonstrating teamwork and athletic excellence.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="date"><i class="fas fa-calendar-alt"></i> June 2024</div>
+                    <h4>School Talent Show</h4>
+                    <p>Wowed the audience with a musical performance combining singing and poetry.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="date"><i class="fas fa-calendar-alt"></i> March 2024</div>
+                    <h4>Women's Day Celebration</h4>
+                    <p>Performed an inspiring poem celebrating women's achievements and empowerment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conferences Attended Section -->
+    <section id="conferences" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">Learning & Growing</p>
+            <h2 class="section-title">Conferences Attended</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-globe"></i></div>
+                <h3>East African Youth Summit</h3>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</div>
+                <p>Participated in discussions on youth empowerment, leadership development, and regional cooperation.</p>
+                <div class="card-tags">
+                    <span class="tag">Youth</span>
+                    <span class="tag">Leadership</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-users"></i></div>
+                <h3>National Student Leaders Conference</h3>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Uganda</div>
+                <p>Engaged with student leaders from across the nation to discuss education reform and student welfare.</p>
+                <div class="card-tags">
+                    <span class="tag">Education</span>
+                    <span class="tag">Networking</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>Creative Arts Workshop</h3>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Regional</div>
+                <p>Attended intensive workshops on poetry, performing arts, and creative expression techniques.</p>
+                <div class="card-tags">
+                    <span class="tag">Arts</span>
+                    <span class="tag">Creativity</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-female"></i></div>
+                <h3>Girls in Leadership Conference</h3>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Uganda</div>
+                <p>Empowering young women through leadership training, mentorship, and career guidance sessions.</p>
+                <div class="card-tags">
+                    <span class="tag">Women</span>
+                    <span class="tag">Empowerment</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-trophy"></i></div>
+                <h3>Sports Excellence Symposium</h3>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Uganda</div>
+                <p>Learning from professional athletes about discipline, training, and balancing sports with academics.</p>
+                <div class="card-tags">
+                    <span class="tag">Sports</span>
+                    <span class="tag">Excellence</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-leaf"></i></div>
+                <h3>Youth Climate Action Forum</h3>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Regional</div>
+                <p>Discussing environmental challenges and youth-led solutions for sustainable development.</p>
+                <div class="card-tags">
+                    <span class="tag">Environment</span>
+                    <span class="tag">Action</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MUN Section -->
+    <section id="mun" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">Diplomacy in Action</p>
+            <h2 class="section-title">Model United Nations</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="mun-header">
+            <div class="mun-logo"><i class="fas fa-globe-americas"></i></div>
+            <p style="max-width: 700px; margin: 0 auto; opacity: 0.8;">
+                As an active MUN delegate, I engage in simulated UN conferences, representing countries in debates on global issues,
+                drafting resolutions, and developing diplomatic skills essential for future leadership.
+            </p>
+        </div>
+        <div class="mun-grid">
+            <div class="mun-card">
+                <div class="mun-card-header">
+                    <i class="fas fa-user-tie"></i>
+                    <h4>Delegate</h4>
+                </div>
+                <div class="mun-card-body">
+                    <p>Representing various countries in committee sessions, delivering position papers, and engaging in moderated caucuses.</p>
+                    <span class="mun-badge"><i class="fas fa-check-circle"></i> Active Role</span>
+                </div>
+            </div>
+            <div class="mun-card">
+                <div class="mun-card-header">
+                    <i class="fas fa-file-alt"></i>
+                    <h4>Resolution Writer</h4>
+                </div>
+                <div class="mun-card-body">
+                    <p>Drafting comprehensive resolutions addressing global challenges with actionable clauses and solutions.</p>
+                    <span class="mun-badge"><i class="fas fa-pen"></i> Policy Drafting</span>
+                </div>
+            </div>
+            <div class="mun-card">
+                <div class="mun-card-header">
+                    <i class="fas fa-comments"></i>
+                    <h4>Debater</h4>
+                </div>
+                <div class="mun-card-body">
+                    <p>Engaging in formal and informal debates, presenting arguments, and negotiating with other delegates.</p>
+                    <span class="mun-badge"><i class="fas fa-microphone"></i> Public Speaking</span>
+                </div>
+            </div>
+            <div class="mun-card">
+                <div class="mun-card-header">
+                    <i class="fas fa-award"></i>
+                    <h4>Award Recipient</h4>
+                </div>
+                <div class="mun-card-body">
+                    <p>Received Best Delegate and Outstanding Position Paper awards at various MUN conferences.</p>
+                    <span class="mun-badge"><i class="fas fa-trophy"></i> Recognition</span>
+                </div>
+            </div>
+            <div class="mun-card">
+                <div class="mun-card-header">
+                    <i class="fas fa-users"></i>
+                    <h4>Team Leader</h4>
+                </div>
+                <div class="mun-card-body">
+                    <p>Leading and mentoring the school's MUN delegation, organizing preparation sessions and mock debates.</p>
+                    <span class="mun-badge"><i class="fas fa-star"></i> Leadership</span>
+                </div>
+            </div>
+            <div class="mun-card">
+                <div class="mun-card-header">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h4>MUN Trainer</h4>
+                </div>
+                <div class="mun-card-body">
+                    <p>Training new delegates on MUN procedures, rules of procedure, and effective debating techniques.</p>
+                    <span class="mun-badge"><i class="fas fa-graduation-cap"></i> Mentorship</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">Let's Connect</p>
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-line"></div>
+        </div>
+        <p class="contact-intro">
+            I'm always excited to connect with like-minded individuals, collaborate on projects,
+            or discuss opportunities. Feel free to reach out through any of my social platforms!
+        </p>
+        <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="contact-cta">
+            <a href="#" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-quote">"Excellence is not a skill, it's an attitude."</p>
+        <p>© 2025 Tumusime Aniella Vanessa. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> | HGL, Uganda</p>
+    </footer>
+
+    <script>
+        // Theme Toggle
+        function toggleTheme() {
+            document.body.classList.toggle('dark');
+            const icon = document.querySelector('.theme-btn i');
+            if (document.body.classList.contains('dark')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            } else {
+                icon.classList.replace('fa-sun', 'fa-moon');
+            }
+        }
+
+        // Check system preference
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+            document.querySelector('.theme-btn i').classList.replace('fa-moon', 'fa-sun');
+        }
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            const icon = document.querySelector('.theme-btn i');
+            if (event.matches) {
+                document.body.classList.add('dark');
+                icon.classList.replace('fa-moon', 'fa-sun');
+            } else {
+                document.body.classList.remove('dark');
+                icon.classList.replace('fa-sun', 'fa-moon');
+            }
+        });
+
+        // Mobile Menu
+        function openMobileMenu() {
+            document.getElementById('mobileMenu').classList.add('active');
+        }
+
+        function closeMobileMenu() {
+            document.getElementById('mobileMenu').classList.remove('active');
+        }
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Active Navigation Link
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Fade In Animation on Scroll
+        const fadeElements = document.querySelectorAll('.fade-in');
+
+        const fadeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        fadeElements.forEach(el => fadeObserver.observe(el));
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
