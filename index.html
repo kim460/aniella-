@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- Inline CSS removed — styles are in style.css -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     </head>
 <body>
     <!-- Background Pattern -->
@@ -24,6 +24,7 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#activities">Activities</a></li>
             <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#conferences">Conferences</a></li>
             <li><a href="#mun">MUN</a></li>
         </ul>
@@ -49,6 +50,7 @@
         <a href="#projects" onclick="closeMobileMenu()">Projects</a>
         <a href="#activities" onclick="closeMobileMenu()">Activities</a>
         <a href="#events" onclick="closeMobileMenu()">Events</a>
+        <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
         <a href="#conferences" onclick="closeMobileMenu()">Conferences</a>
         <a href="#mun" onclick="closeMobileMenu()">MUN</a>
     </div>
@@ -79,7 +81,9 @@
             <div class="hero-visual">
                 <div class="avatar-container">
                     <div class="avatar-ring">
-                        <div class="avatar-inner">AV</div>
+                        <div class="avatar-inner">
+                            <img src="image/IMG_2179.jpg" alt="Tumusime Aniella Vanessa" class="avatar-img">
+                        </div>
                     </div>
                     <div class="avatar-decorations">
                         <div class="decoration"><i class="fas fa-pen-fancy"></i></div>
@@ -103,13 +107,8 @@
             <div class="about-image">
                 <div class="about-img-container">
                     <div class="about-img-inner">
-                        <i class="fas fa-user-graduate"></i>
-                        <span>S6 Student</span>
+                        <img src="image/IMG_1757.JPG" alt="Tumusime Aniella Vanessa" class="about-profile-img">
                     </div>
-                </div>
-                <div class="experience-badge">
-                    <span class="number">#1</span>
-                    <span class="text">Top Performer</span>
                 </div>
             </div>
             <div class="about-content">
@@ -156,16 +155,10 @@
                 <span class="year">2024</span>
             </div>
             <div class="award-card">
-                <div class="award-icon"><i class="fas fa-medal"></i></div>
-                <h4>Leadership Excellence Award</h4>
-                <p>Recognized for outstanding leadership qualities</p>
-                <span class="year">2024</span>
-            </div>
-            <div class="award-card">
                 <div class="award-icon"><i class="fas fa-feather-alt"></i></div>
-                <h4>Poetry Competition Winner</h4>
-                <p>First place in inter-school poetry competition</p>
-                <span class="year">2023</span>
+                <h4>Poetry Trophy Winner (EY)</h4>
+                <p>Poetry Trophy Winner — School (Grade S4)</p>
+                <span class="year">2024</span>
             </div>
             <div class="award-card">
                 <div class="award-icon"><i class="fas fa-basketball-ball"></i></div>
@@ -184,6 +177,35 @@
                 <h4>Public Speaking Certificate</h4>
                 <p>Excellence in oratory and debate</p>
                 <span class="year">2023</span>
+            </div>
+
+            <!-- Newly added awards -->
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-comments"></i></div>
+                <h4>Best Opening Statement</h4>
+                <p>MUN Green Hills A (Regional) — Grade S5</p>
+                <span class="year">2025</span>
+            </div>
+
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-newspaper"></i></div>
+                <h4>Best Journalist</h4>
+                <p>ASYV News (School) — Grade S4</p>
+                <span class="year">2024</span>
+            </div>
+
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-handshake"></i></div>
+                <h4>Best Fair Play Champion</h4>
+                <p>SOLA Basketball (Regional) — Grade S6</p>
+                <span class="year">2025</span>
+            </div>
+
+            <div class="award-card">
+                <div class="award-icon"><i class="fas fa-globe-africa"></i></div>
+                <h4>Certificate of participation</h4>
+                <p>Yale model African Union(Ghana) — Grade S6</p>
+                <span class="year">2026</span>
             </div>
         </div>
     </section>
@@ -213,24 +235,12 @@
                 <span>Reading Books</span>
             </div>
             <div class="hobby-card">
-                <i class="fas fa-paint-brush"></i>
-                <span>Drawing & Art</span>
-            </div>
-            <div class="hobby-card">
-                <i class="fas fa-microphone"></i>
-                <span>Public Speaking</span>
-            </div>
-            <div class="hobby-card">
                 <i class="fas fa-users"></i>
                 <span>Community Service</span>
             </div>
             <div class="hobby-card">
                 <i class="fas fa-globe"></i>
                 <span>Model United Nations</span>
-            </div>
-            <div class="hobby-card">
-                <i class="fas fa-camera"></i>
-                <span>Photography</span>
             </div>
             <div class="hobby-card">
                 <i class="fas fa-headphones"></i>
@@ -248,16 +258,6 @@
         </div>
         <div class="cards-grid">
             <div class="card">
-                <div class="card-icon"><i class="fas fa-book"></i></div>
-                <h3>Poetry Collection</h3>
-                <div class="card-meta"><i class="fas fa-calendar"></i> Ongoing</div>
-                <p>A personal collection of original poems exploring themes of hope, identity, youth empowerment, and African heritage.</p>
-                <div class="card-tags">
-                    <span class="tag">Creative Writing</span>
-                    <span class="tag">Poetry</span>
-                </div>
-            </div>
-            <div class="card">
                 <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
                 <h3>Youth Mentorship Initiative</h3>
                 <div class="card-meta"><i class="fas fa-calendar"></i> 2024</div>
@@ -267,17 +267,7 @@
                     <span class="tag">Education</span>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-icon"><i class="fas fa-palette"></i></div>
-                <h3>Art for Change Exhibition</h3>
-                <div class="card-meta"><i class="fas fa-calendar"></i> 2023</div>
-                <p>Organized an art exhibition featuring student artworks addressing social issues and promoting positive change in the community.</p>
-                <div class="card-tags">
-                    <span class="tag">Art</span>
-                    <span class="tag">Community</span>
-                </div>
-            </div>
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-icon"><i class="fas fa-basketball-ball"></i></div>
                 <h3>Girls Sports Empowerment</h3>
                 <div class="card-meta"><i class="fas fa-calendar"></i> 2024</div>
@@ -286,7 +276,7 @@
                     <span class="tag">Sports</span>
                     <span class="tag">Empowerment</span>
                 </div>
-            </div>
+            </div> -->
             <div class="card">
                 <div class="card-icon"><i class="fas fa-newspaper"></i></div>
                 <h3>School Magazine Contributor</h3>
@@ -324,35 +314,82 @@
                 <div class="card-meta"><i class="fas fa-users"></i> Team Member</div>
                 <p>Active member of the school basketball team, participating in inter-school tournaments and promoting sportsmanship.</p>
             </div>
+
             <div class="card">
                 <div class="card-icon"><i class="fas fa-comments"></i></div>
                 <h3>Debate Club</h3>
-                <div class="card-meta"><i class="fas fa-star"></i> Senior Member</div>
-                <p>Engaging in intellectual debates on current affairs, policy issues, and philosophical topics to sharpen critical thinking.</p>
+                <div class="card-meta"><i class="fas fa-gavel"></i> Disciplinary Lead (S5)</div>
+                <p>Maintained respectful, productive debate environments and ensured effective session management.</p>
             </div>
+
             <div class="card">
                 <div class="card-icon"><i class="fas fa-music"></i></div>
                 <h3>School Choir</h3>
                 <div class="card-meta"><i class="fas fa-microphone"></i> Vocalist</div>
                 <p>Contributing melodious vocals to the school choir, performing at various school events and competitions.</p>
             </div>
+
             <div class="card">
-                <div class="card-icon"><i class="fas fa-pen-fancy"></i></div>
-                <h3>Poetry Club</h3>
-                <div class="card-meta"><i class="fas fa-crown"></i> Founding Member</div>
-                <p>Writing and performing original poetry, mentoring aspiring poets, and organizing poetry reading sessions.</p>
+                <div class="card-icon"><i class="fas fa-newspaper"></i></div>
+                <h3>Liquidnet / ASYV Journalism</h3>
+                <div class="card-meta"><i class="fas fa-pen"></i> Advisor · Writer · News Consultant (EY–S5)</div>
+                <p>Produced and organized school news content; strengthened public speaking, reporting, and editorial skills.</p>
             </div>
+
             <div class="card">
-                <div class="card-icon"><i class="fas fa-globe-africa"></i></div>
-                <h3>Model United Nations</h3>
-                <div class="card-meta"><i class="fas fa-award"></i> Delegate</div>
-                <p>Representing countries in simulated UN conferences, debating global issues and drafting resolutions.</p>
+                <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
+                <h3>Youth Impact Mission Club</h3>
+                <div class="card-meta"><i class="fas fa-shield-alt"></i> Disciplinary Role (S4)</div>
+                <p>Facilitated discipline and coordination during service activities.</p>
             </div>
+
             <div class="card">
-                <div class="card-icon"><i class="fas fa-heart"></i></div>
-                <h3>Community Service Club</h3>
-                <div class="card-meta"><i class="fas fa-hands-helping"></i> Volunteer</div>
-                <p>Participating in community outreach programs, charity events, and initiatives to help the less fortunate.</p>
+                <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
+                <h3>Girl Up Club</h3>
+                <div class="card-meta"><i class="fas fa-lightbulb"></i> Research & Development (EY) · Event Coordinator (S4–S5)</div>
+                <p>Planned empowerment events and research initiatives; co-organized the Lady Power Summit to mentor girls in leadership and confidence.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-user-shield"></i></div>
+                <h3>Critical Thinking for Peace Club</h3>
+                <div class="card-meta"><i class="fas fa-people-arrows"></i> Vice President (S5) · Secretary General–MUN (S4)</div>
+                <p>Led club operations and organized MUN sessions; built diplomacy, conflict resolution, and leadership skills.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-bullhorn"></i></div>
+                <h3>Kira Umutima Initiative</h3>
+                <div class="card-meta"><i class="fas fa-comments"></i> Communications (S4) · Event Planner (S5)</div>
+                <p>Managed internal communications and event logistics for youth-focused initiatives.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-language"></i></div>
+                <h3>ASYV English Ambassadors Club</h3>
+                <div class="card-meta"><i class="fas fa-user-graduate"></i> English Ambassador (S4–S5)</div>
+                <p>Promoted English usage, supported peer language development, and encouraged participation despite social barriers.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-brain"></i></div>
+                <h3>Mental Health Club</h3>
+                <div class="card-meta"><i class="fas fa-heartbeat"></i> Mental Health Champion (S5)</div>
+                <p>Supported student wellness through discussions, activities, and peer engagement.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-coins"></i></div>
+                <h3>Peace and Love Proclaimers Club</h3>
+                <div class="card-meta"><i class="fas fa-wallet"></i> Treasurer (S4)</div>
+                <p>Managed club finances and promoted community impact and peaceful values.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-theater-masks"></i></div>
+                <h3>Cultural Isheja Traditional Troupe</h3>
+                <div class="card-meta"><i class="fas fa-music"></i> Choir President (S5)</div>
+                <p>Led performances and promoted Rwandan culture, unity, and heritage through music.</p>
             </div>
         </div>
     </section>
@@ -364,53 +401,142 @@
             <h2 class="section-title">Events Performed</h2>
             <div class="section-line"></div>
         </div>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="date"><i class="fas fa-calendar-alt"></i> December 2024</div>
-                    <h4>Annual Prize Giving Day</h4>
-                    <p>Delivered a captivating poetry recitation and received the Best Academic Performance award.</p>
+        <div class="cards-grid events-grid">
+            <div class="card event-card">
+                <div class="card-icon"><i class="fas fa-theater-masks"></i></div>
+                <span class="event-date">November 2024</span>
+                <h3>Inter-School Arts Festival</h3>
+                <p>Performed original poetry and participated in the art exhibition, showcasing creative talents.</p>
+            </div>
+            <div class="card event-card">
+                <div class="card-icon"><i class="fas fa-flag"></i></div>
+                <span class="event-date">September 2024</span>
+                <h3>Independence Day Celebration</h3>
+                <p>Led the school choir and delivered a powerful spoken word performance on national unity.</p>
+            </div>
+            <div class="card event-card">
+                <div class="card-icon"><i class="fas fa-basketball-ball"></i></div>
+                <span class="event-date">August 2024</span>
+                <h3>Regional Basketball Championship</h3>
+                <p>Competed in the regional championships, demonstrating teamwork and athletic excellence.</p>
+            </div>
+            <div class="card event-card">
+                <div class="card-icon"><i class="fas fa-microphone"></i></div>
+                <span class="event-date">June 2024</span>
+                <h3>School Talent Show</h3>
+                <p>Wowed the audience with a musical performance combining singing and poetry.</p>
+            </div>
+            <div class="card event-card">
+                <div class="card-icon"><i class="fas fa-female"></i></div>
+                <span class="event-date">March 2024</span>
+                <h3>Women's Day Celebration</h3>
+                <p>Performed an inspiring poem celebrating women's achievements and empowerment.</p>
+            </div>
+            <div class="card event-card">
+                <div class="card-icon"><i class="fas fa-leaf"></i></div>
+                <span class="event-date">February 2024</span>
+                <h3>Youth Climate Action Day</h3>
+                <p>Advocated for sustainability and youth-led environmental initiatives in a community forum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="fade-in">
+        <div class="section-header">
+            <p class="section-label">Memorable Moments</p>
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="gallery-tabs">
+            <button class="gallery-tab active" data-tab="community">Community Service</button>
+            <button class="gallery-tab" data-tab="mun">MUN</button>
+            <button class="gallery-tab" data-tab="event">Event</button>
+            <button class="gallery-tab" data-tab="other">Other</button>
+        </div>
+        <div class="gallery-content">
+            <div class="gallery-tab-content active" id="community">
+                <div class="gallery-grid">
+                    <div class="gallery-card">
+                        <img src="image/WORLDENVIRONMENTALDAY_6.jpg" alt="Environmental action day activity">
+                        <div class="gallery-overlay"><p>Climate Action Day</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/WORLDENVIRONMENTALDAY_7.jpg" alt="Community engagement event">
+                        <div class="gallery-overlay"><p>Community Engagement</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/WORLDENVIRONMENTALDAY_101.jpg" alt="Environmental awareness campaign">
+                        <div class="gallery-overlay"><p>Environmental Awareness</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/WORLDENVIRONMENTALDAY_121.jpg" alt="Youth climate action">
+                        <div class="gallery-overlay"><p>Youth Climate Action</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/P4W_11.jpg" alt="Basketball game">
+                        <div class="gallery-overlay"><p>Community support</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/DSC03633.jpg" alt="School event celebration">
+                        <div class="gallery-overlay"><p>Community Engagement</p></div>
+                    </div>
+                     <div class="gallery-card">
+                        <img src="image/DSC07887.jpg" alt="MUN debate session">
+                        <div class="gallery-overlay"><p>Communtiy Support</p></div>
+                    </div>
                 </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="date"><i class="fas fa-calendar-alt"></i> November 2024</div>
-                    <h4>Inter-School Arts Festival</h4>
-                    <p>Performed original poetry and participated in the art exhibition, showcasing creative talents.</p>
+            <div class="gallery-tab-content" id="mun">
+                <div class="gallery-grid">
+                    <div class="gallery-card">
+                        <img src="image/IMG_1757.JPG" alt="MUN conference">
+                        <div class="gallery-overlay"><p>MUN Conferance</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/IMG_1781.JPG" alt="MUN conference session">
+                        <div class="gallery-overlay"><p>MUN Conference</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/1000617098.jpeg" alt="Yale Africa Model Union">
+                        <div class="gallery-overlay"><p>Yale Africa Model Union</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/1000619398.jpeg" alt="MUN award ceremony">
+                        <div class="gallery-overlay"><p>MUN Awards</p></div>
+                    </div>
                 </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="date"><i class="fas fa-calendar-alt"></i> September 2024</div>
-                    <h4>Independence Day Celebration</h4>
-                    <p>Led the school choir and delivered a powerful spoken word performance on national unity.</p>
+            <div class="gallery-tab-content" id="event">
+                <div class="gallery-grid">
+                    <div class="gallery-card">
+                        <img src="image/1000617559.jpeg" alt="Cultural event">
+                        <div class="gallery-overlay"><p>Cultural Event</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/53.jpg" alt="Independence day celebration">
+                        <div class="gallery-overlay"><p>Independence Day</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/60.jpg" alt="Talent show performance">
+                        <div class="gallery-overlay"><p>Talent Show</p></div>
+                    </div>
                 </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="date"><i class="fas fa-calendar-alt"></i> August 2024</div>
-                    <h4>Regional Basketball Championship</h4>
-                    <p>Competed in the regional championships, demonstrating teamwork and athletic excellence.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="date"><i class="fas fa-calendar-alt"></i> June 2024</div>
-                    <h4>School Talent Show</h4>
-                    <p>Wowed the audience with a musical performance combining singing and poetry.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="date"><i class="fas fa-calendar-alt"></i> March 2024</div>
-                    <h4>Women's Day Celebration</h4>
-                    <p>Performed an inspiring poem celebrating women's achievements and empowerment.</p>
+            <div class="gallery-tab-content" id="other">
+                <div class="gallery-grid">
+                    <div class="gallery-card">
+                        <img src="image/1000617099.jpeg" alt="Sports team photo">
+                        <div class="gallery-overlay"><p>Team Photo</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/1000617100.jpeg" alt="Athletic competition">
+                        <div class="gallery-overlay"><p>Athletic Competition</p></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="image/curnary_4.jpg" alt="Sports award">
+                        <div class="gallery-overlay"><p>Curinal Work</p></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -427,7 +553,7 @@
             <div class="card">
                 <div class="card-icon"><i class="fas fa-globe"></i></div>
                 <h3>East African Youth Summit</h3>
-                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</div>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> National</div>
                 <p>Participated in discussions on youth empowerment, leadership development, and regional cooperation.</p>
                 <div class="card-tags">
                     <span class="tag">Youth</span>
@@ -437,7 +563,7 @@
             <div class="card">
                 <div class="card-icon"><i class="fas fa-users"></i></div>
                 <h3>National Student Leaders Conference</h3>
-                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Uganda</div>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> National</div>
                 <p>Engaged with student leaders from across the nation to discuss education reform and student welfare.</p>
                 <div class="card-tags">
                     <span class="tag">Education</span>
@@ -445,19 +571,19 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
-                <h3>Creative Arts Workshop</h3>
-                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Regional</div>
-                <p>Attended intensive workshops on poetry, performing arts, and creative expression techniques.</p>
+                <div class="card-icon"><i class="fas fa-globe"></i></div>
+                <h3>Yale model Africa Union</h3>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> International</div>
+                <p>Participated in discussions on Women empowerment, leadership development, and national cooperation.</p>
                 <div class="card-tags">
-                    <span class="tag">Arts</span>
-                    <span class="tag">Creativity</span>
+                    <span class="tag">Delegate</span>
+                    <span class="tag">Leadership</span>
                 </div>
             </div>
             <div class="card">
                 <div class="card-icon"><i class="fas fa-female"></i></div>
                 <h3>Girls in Leadership Conference</h3>
-                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Uganda</div>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> National</div>
                 <p>Empowering young women through leadership training, mentorship, and career guidance sessions.</p>
                 <div class="card-tags">
                     <span class="tag">Women</span>
@@ -467,7 +593,7 @@
             <div class="card">
                 <div class="card-icon"><i class="fas fa-trophy"></i></div>
                 <h3>Sports Excellence Symposium</h3>
-                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Uganda</div>
+                <div class="card-meta"><i class="fas fa-map-marker-alt"></i> Natioanal</div>
                 <p>Learning from professional athletes about discipline, training, and balancing sports with academics.</p>
                 <div class="card-tags">
                     <span class="tag">Sports</span>
@@ -568,25 +694,77 @@
     <!-- Contact Section -->
     <section id="contact" class="fade-in">
         <div class="section-header">
-            <p class="section-label">Let's Connect</p>
-            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-label">Let's connect</p>
+            <h2 class="section-title">Contact Me</h2>
             <div class="section-line"></div>
         </div>
-        <p class="contact-intro">
-            I'm always excited to connect with like-minded individuals, collaborate on projects,
-            or discuss opportunities. Feel free to reach out through any of my social platforms!
-        </p>
-        <div class="social-links">
-            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
-            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-        </div>
-        <div class="contact-cta">
-            <a href="#" class="btn btn-primary">
-                <i class="fas fa-paper-plane"></i> Send Message
-            </a>
+        <div class="contact-grid">
+            <div class="contact-card contact-info-card">
+                <p class="contact-intro">Whether you're interested in, have a question, or want to say hello, I'm always ready to listen. Reach out.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-item-text">
+                            <span>Email</span>
+                            <a href="mailto:aniellatumusime01@gmail.com">aniellatumusime01@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div class="contact-item-text">
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/tumusimevanessa" target="_blank" rel="noreferrer" title="LinkedIn">tumusimevanessa</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="contact-item-text">
+                            <span>WhatsApp</span>
+                            <a href="https://wa.me/250791161576" target="_blank" rel="noreferrer">Message me on WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-item-text">
+                            <span>Location</span>
+                            <p>Rwanda</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="contact-item-text">
+                            <span>Availability</span>
+                            <p>Open for opportunities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-card contact-form-card">
+                <form id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactName">Name</label>
+                            <input type="text" id="contactName" name="contactName" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email</label>
+                            <input type="email" id="contactEmail" name="contactEmail" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+                        <input type="text" id="contactSubject" name="contactSubject" placeholder="What would you like to discuss?">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" name="contactMessage" rows="6" placeholder="Write your message here" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <p id="contactSuccess" class="contact-success" hidden></p>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -594,108 +772,8 @@
     <footer>
         <p class="footer-quote">"Excellence is not a skill, it's an attitude."</p>
         <p>© 2025 Tumusime Aniella Vanessa. All rights reserved.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.8rem;">Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> | HGL, Uganda</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> | HGL, RWANDA</p>
     </footer>
-
-    <script>
-        // Theme Toggle
-        function toggleTheme() {
-            document.body.classList.toggle('dark');
-            const icon = document.querySelector('.theme-btn i');
-            if (document.body.classList.contains('dark')) {
-                icon.classList.replace('fa-moon', 'fa-sun');
-            } else {
-                icon.classList.replace('fa-sun', 'fa-moon');
-            }
-        }
-
-        // Check system preference
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add('dark');
-            document.querySelector('.theme-btn i').classList.replace('fa-moon', 'fa-sun');
-        }
-
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-            const icon = document.querySelector('.theme-btn i');
-            if (event.matches) {
-                document.body.classList.add('dark');
-                icon.classList.replace('fa-moon', 'fa-sun');
-            } else {
-                document.body.classList.remove('dark');
-                icon.classList.replace('fa-sun', 'fa-moon');
-            }
-        });
-
-        // Mobile Menu
-        function openMobileMenu() {
-            document.getElementById('mobileMenu').classList.add('active');
-        }
-
-        function closeMobileMenu() {
-            document.getElementById('mobileMenu').classList.remove('active');
-        }
-
-        // Navbar Scroll Effect
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
-        // Active Navigation Link
-        const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('.nav-menu a');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= sectionTop - 200) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
-                }
-            });
-        });
-
-        // Fade In Animation on Scroll
-        const fadeElements = document.querySelectorAll('.fade-in');
-
-        const fadeObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        });
-
-        fadeElements.forEach(el => fadeObserver.observe(el));
-
-        // Smooth scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
